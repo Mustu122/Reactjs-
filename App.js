@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Greeting() {
-  return <h1>Hello, World!</h1>;
+class Greeting extends Component {
+  render() {
+    return <h1>Hello, World!</h1>;
+  }
 }
 
 export default Greeting;
